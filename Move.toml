@@ -1,0 +1,11 @@
+[package]
+name = "huski"
+version = "0.0.0"
+# published-at = "0x17ec1f80de57305555995edef247afcd4c0f8859bc42d7a696e64822710c34ef"
+
+[dependencies]
+Sui = { local = "H:/sui/crates/sui-framework/packages/sui-framework" }
+# Sui = { local = "E:/github/sui/crates/sui-framework/packages/sui-framework" }
+
+[addresses]
+huski = "0x0"
